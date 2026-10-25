@@ -3,6 +3,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('books/', include("apps.bookmodule.urls")), # تضمين مسارات bookmodule
-    path('users/', include("apps.usermodule.urls"))  # تضمين مسارات usermodule
+    path('books/', include("bookmodule.urls")),
+    path('users/', include("usermodule.urls")),
 ]
