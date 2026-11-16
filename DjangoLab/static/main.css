@@ -1,0 +1,66 @@
+/* === Task 1: Links === */
+.link-box {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+#link1 {
+    background-color: #a6f2b4;
+    color: red;
+}
+#link2 {
+    background-color: #555555;
+    color: yellow;
+}
+#link3 {
+    background-color: #000000;
+    color: white;
+}
+.link-box:visited {
+    opacity: 0.9;
+}
+.link-box:hover {
+    background-color: #333333 !important;
+    color: #00ffcc !important;
+}
+.link-box:active {
+    background-color: darkred !important;
+    color: white !important;
+}
+
+/* === Task 2: Formatting === */
+.format-header {
+    background-color: #f4f7dc;
+    color: green;
+    padding: 15px 10px;
+}
+
+/* === Task 3: Listing === */
+.list-header {
+    background-color: #549696;
+    color: white;
+    padding: 15px 10px;
+}
+
+/* === Task 4: Tables === */
+.table1 {
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+.table1 th, .table1 td {
+    border: 1px solid black;
+    padding: 3px 6px;
+}
+
+.table2 {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table2 th, .table2 td {
+    border: 1px solid black;
+    padding: 8px;
+}
